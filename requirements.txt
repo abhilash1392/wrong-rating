@@ -11,5 +11,4 @@ uvloop == 0.8.0
 httptools
 pickle5
 nltk==3.5
-nltk.txt
 emoji==1.2.0
