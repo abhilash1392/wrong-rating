@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+fastapi
+gunicorn==19.9.0
+joblib
+uvicorn==0.13.3
+uvloop == 0.8.0
+httptools
+pickle5
+nltk==3.5
+emoji==1.2.0

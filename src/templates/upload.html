@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <title>ML API</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div>
+	<h1>Upload New File</h1>
+    
+
+    <!-- Main Input For Receiving Query to our ML -->
+    <form action="predict_api" method="post" enctype="multipart/form-data">
+    	<input type="file" name="file" >
+        <button type="submit">Upload</button>
+    </form>
+
+    </div>
+</body>
+</html>
