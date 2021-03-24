@@ -3,6 +3,12 @@
 ## Description 
 This is a web-based app which can tell the executives the whether the poor rating given by the customer matches the review. Sometimes it happens that customer writes a good review but gives a bad rating by mistake, or thinks that 3 star is a good rating. 
 
+## Deployment 
+
+The app is deployed on heroku platform to follow the app. Go to the link.
+
+https://wrongrating-app.herokuapp.com/
+
 ## Directory Structure 
 The directory structure is defined below:
 
@@ -68,8 +74,4 @@ This would identify this as wrong rating.
 The model cannot check spelling mistakes.
 
 
-## Deployment 
 
-The app is deployed on heroku platform to follow the app. Go to the link.
-
-https://wrongrating-app.herokuapp.com/
