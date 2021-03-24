@@ -65,4 +65,4 @@ Example:
 Input: ("This app is amazing at sucking.",1)
 This would identify this as wrong rating.
 
-The model cannot deal with spelling mistakes tried using TextBlob but that lead to even bad results as "This is awsome" became "His is some"
+The model cannot check spelling mistakes.

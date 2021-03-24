@@ -6,7 +6,7 @@ import nltk
 nltk.download('vader_lexicon')
 import emoji 
 import re
-
+import spacy
 
 
 def removeEmoji(text):
@@ -22,8 +22,6 @@ def clean_text(text):
     text = [WordNetLemmatizer().lemmatize(word) for word in text]
     text = " ".join(text)
     return text
-
-
 
 
 
