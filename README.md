@@ -66,3 +66,10 @@ Input: ("This app is amazing at sucking.",1)
 This would identify this as wrong rating.
 
 The model cannot check spelling mistakes.
+
+
+## Deployment 
+
+The app is deployed on heroku platform to follow the app. Go to the link.
+
+https://wrongrating-app.herokuapp.com/
